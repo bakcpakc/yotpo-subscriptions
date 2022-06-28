@@ -1,0 +1,87 @@
+.subscriptions-getting-started {
+  background: white;
+  padding: 3.5rem 2.5rem 2.5rem;
+  text-align: center;
+}
+
+/* Section Headline */
+.getting-started-headline {
+  font-size: 45px;
+  font-weight: 900;
+  color: #f0b8ac;
+}
+
+/* Section description*/
+.getting-started-description-text {
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 1.4;
+  margin: 40px auto 10px;
+  max-width: 900px;
+}
+
+/* Item image */
+.getting-started-steps-icon {
+  max-width: 200px;
+  max-height: 240px;
+}
+/* Item name */
+.getting-started-item-name {
+  font-size: 20px;
+  margin: 1.5rem auto;
+  font-family: Gotham;
+  font-weight: 300;
+}
+
+/* Shop Now CTA */
+a.getting-started-item-button {
+  padding: 1rem;
+  border-radius: 10px;
+  background-color: #f0b8ac;
+  font-weight: 300;
+  font-family: Gotham;
+  width: 220px;
+  display: block;
+  margin: auto;
+}
+
+.getting-started-list-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 15px;
+  justify-content: center;
+  max-width: 1150px;
+  margin: auto;
+}
+
+.getting-started-item {
+  width: 33%;
+  min-width: 300px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  text-align: center;
+  padding: 10px 15px 10px;
+  margin: 15px auto;
+}
+
+.getting-started-steps-description {
+  font-weight: 300;
+  font-size: 16px;
+  margin-bottom: 30px;
+  line-height: 1.4;
+  white-space: pre-wrap;
+  overflow-wrap: break-word;
+  min-height: 50px;
+}
+
+@media (max-width: 1023px) {
+  .subscriptions-getting-started {
+    padding: 5rem 0.5rem 3rem;
+  }
+  .getting-started-description-text {
+    font-size: 16px;
+  }
+  .getting-started-headline {
+    font-size: 30px;
+  }
+}

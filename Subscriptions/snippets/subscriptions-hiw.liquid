@@ -1,0 +1,49 @@
+<!--
+CSS for How It Works section 
+go to assets/subscriptions-hiw.css
+-->
+{{ 'subscriptions-hiw.css' | asset_url | stylesheet_tag }}
+
+<div class="subscriptions-hiw">
+    <h2 class="hiw-headline">HOW IT WORKS</h2>
+    <div class="hiw-steps-list-container">
+        <div class="hiw-steps-item">
+            
+            <!-- step 1 title -->
+            <div class="hiw-steps-title">Subscribe & save</div>
+
+            <!-- step 1 description -->
+            <div class="hiw-steps-description">Pay less for your favorite items!</div>
+
+            <!-- step 1 image -->
+            <img src={{ "subscription-hiw-step-1.png" | asset_url}}} alt="" class="hiw-steps-icon hiw-steps-1-icon">
+        </div>
+        <div class="hiw-steps-item">
+
+            <!-- step 2 title -->
+            <div class="hiw-steps-title">Stress-free delivery</div>
+
+            <!-- step 2 description -->
+            <div class="hiw-steps-description">Never worry about delivery</div>
+
+            <!-- step 2 image -->
+            <img src={{ "subscription-hiw-step-2.png" | asset_url}}} alt="" class="hiw-steps-icon hiw-steps-2-icon">
+        </div>
+        <div class="hiw-steps-item">
+
+            <!-- step 3 title -->
+            <div class="hiw-steps-title">Order flexibility</div>
+
+            <!-- step 3 description -->
+            <div class="hiw-steps-description">Update your order frequency, renew,<br>or cancel any time you want</div>
+
+            <!-- step 3 image -->
+            <img src={{ "subscription-hiw-step-3.png" | asset_url}}} alt="" class="hiw-steps-icon hiw-steps-3-icon">
+        </div>
+    </div>
+    <div class="hiw-description-container">
+
+        <!-- how it works descriptions -->
+        <p class="hiw-description-text">Pay less. Flexibility, no need to worry about re-stocking, convenience! Cancel Anytime.</p>
+    </div>
+</div>

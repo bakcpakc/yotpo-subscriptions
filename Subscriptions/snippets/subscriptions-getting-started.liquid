@@ -1,0 +1,53 @@
+<!--
+CSS for Getting Started section 
+go to assets/subscriptions-getting-started.css
+-->
+{{ 'subscriptions-getting-started.css' | asset_url | stylesheet_tag }}
+
+    <!-- section container -->
+<div class="subscriptions-getting-started">
+
+    <!-- section headline -->
+    <h2 class="getting-started-headline">CHOOSE YOUR FIRST PRODUCTS</h2>
+    <div class="getting-started-description-container">
+
+        <!-- section description -->
+        <p class="getting-started-description-text">You save every time you renew your subscription. We guarantee a hassle-free experience to make sure you get your favorites when you need them.</p>
+    </div>
+    <div class="getting-started-list-container">
+        <div class="getting-started-item">
+
+            <!-- Item Image -->
+            <img src={{ "subscriptions-getting-started-item-1.png" | asset_url}} alt="getting-started Image" class="getting-started-steps-icon getting-started-steps-1-icon">
+            
+            <!-- Item Name -->
+            <div class="getting-started-item-name">Mascara</div>
+            
+            <!-- Shop Now CTA, add link in href -->
+            <a href="#" type="button" class="getting-started-item-button">SHOP NOW</a>
+        </div>
+        <div class="getting-started-item">
+            
+            <!-- Item Image -->
+            <img src={{ "subscriptions-getting-started-item-2.png" | asset_url}} alt="getting-started Image" class="getting-started-steps-icon getting-started-steps-1-icon">
+            
+            <!-- Item Name -->
+            <div class="getting-started-item-name">Refining Powder</div>
+            
+            <!-- Shop Now CTA, add link in href -->
+            <a href="#" type="button" class="getting-started-item-button">SHOP NOW</a>
+        </div>
+        <div class="getting-started-item">
+            
+            <!-- Item Image -->
+            <img src={{ "subscriptions-getting-started-item-3.png" | asset_url}} alt="getting-started Image" class="getting-started-steps-icon getting-started-steps-1-icon">
+            
+            <!-- Item Name -->
+            <div class="getting-started-item-name">Mascara</div>
+            
+            <!-- Shop Now CTA, add link in href -->
+            <a href="#" type="button" class="getting-started-item-button">SHOP NOW</a>
+        </div>
+    </div>
+
+</div>

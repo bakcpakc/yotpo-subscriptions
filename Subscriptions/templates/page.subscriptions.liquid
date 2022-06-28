@@ -1,0 +1,15 @@
+<!--
+Default CSS for Subscriptions page
+go to assets/subscriptions-main.css
+ -->
+{{ 'subscriptions-main.css' | asset_url | stylesheet_tag }}
+
+<div class="subscriptions-container">
+
+    {% include 'subscriptions-banner' %}
+    {% include 'subscriptions-hiw' %}
+    {% include 'subscriptions-getting-started' %}
+    {% include 'subscriptions-product' %}
+  <div class="yotpo-widget-instance" data-yotpo-instance-id="147188"></div>
+    {% include 'subscriptions-faq' %}
+</div>

@@ -1,0 +1,80 @@
+/* 
+yotpo main container
+change background hex code to change background color
+*/
+.yotpo-hiw-tier{
+    background: #FEE4DE;
+    padding: 3.5rem 2.5rem 2.5rem;
+    text-align: center;
+}
+
+/* 
+headline
+*/
+.hiw-tier-headline{
+    font-size: 45px;
+    font-weight: 900;
+}
+
+
+/* step title */
+.hiw-tier-steps-title{
+    font-weight: 900;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+/* step description */
+.hiw-tier-steps-description{
+    font-weight: 300;
+    font-size: 16px;
+    margin-bottom: 30px;
+    line-height: 1.4;
+    white-space: pre-wrap;
+    overflow-wrap: break-word;
+    min-height: 50px;
+}
+
+/* step icon/image */
+.hiw-tier-steps-icon{
+    max-width: 140px;
+    max-height: 140px;
+}
+
+/* how it works description */
+.hiw-tier-description-text{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.4;
+}
+
+.hiw-tier-steps-list-container{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 15px;
+    justify-content: center;
+    max-width: 1300px;
+    margin: auto;
+}
+
+.hiw-tier-steps-item{
+    width: 33%;
+    min-width: 300px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 20px 15px 10px;
+    margin: 15px auto;
+}
+
+@media (max-width: 1023px) {
+    .yotpo-hiw-tier{
+        padding: 5rem 0.5rem;
+    }
+    .hiw-tier-description-text{
+        font-size: 16px;
+    }
+    .hiw-tier-headline{
+        font-size: 30px;
+    }
+}

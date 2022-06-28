@@ -1,0 +1,23 @@
+.main-content{
+    padding: 0px !important;
+}
+
+
+/* 
+Default font and colors are set here
+*/
+.subscriptions-container *{
+    line-height: 1;
+    letter-spacing: inherit;
+    font-family: Avenir;
+    color: black;
+}
+
+.main-text-color{
+    color: #F0B8AC !important;
+}
+
+.secondary-text-color{
+    color: #000 !important;
+}
+

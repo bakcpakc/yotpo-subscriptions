@@ -1,0 +1,16 @@
+<!--
+CSS for Product section 
+go to assets/subscriptions-product.css
+-->
+{{ 'subscriptions-product.css' | asset_url | stylesheet_tag }}
+
+<!-- section container -->
+<div class="subscriptions-product">
+    <div class="subscriptions-product-container">
+        <!-- section image -->
+        <img class="subscriptions-product-image" src={{"subscriptions-product-image.png" | asset_url }} alt="product banner image">
+        
+        <!-- Change #linkhere to correct link -->
+        <a href="#linkhere" type="button" class="subscriptions-product-button">Shop Subscription Collection</a>
+    </div>
+</div>

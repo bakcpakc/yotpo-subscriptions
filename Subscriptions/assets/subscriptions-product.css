@@ -1,0 +1,52 @@
+.subscriptions-product-container{
+    height: 600px;
+    position: relative;
+}
+
+/* Section image */
+.subscriptions-product-image{
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Section CTA */
+a.subscriptions-product-button{
+    padding: 1.5rem;
+    border-radius: 10px;
+    background-color: #F0B8AC;
+    font-weight: 300;
+    font-family: Avenir;
+    display: block;
+    margin: auto;
+    font-weight: 900;
+    font-size: 30px;
+    color: #414141;
+
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    height: fit-content;
+    width: fit-content;
+    right: 10%;
+}
+
+@media(max-width: 1023px){
+    .subscriptions-product-container{
+        height: auto;
+    }
+
+    a.subscriptions-product-button{
+        position: relative;
+        left: unset;
+        right: unset;
+        top: unset;
+        bottom: unset;
+        padding: 2rem 1rem;
+        margin: 30px auto auto;
+        width: 90%;
+        max-width: 300px;
+        text-align: center;
+        font-size: 18px;
+        color: black;
+    }
+}

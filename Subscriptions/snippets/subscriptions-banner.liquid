@@ -1,0 +1,30 @@
+<!--
+CSS for Banner section
+go to assets/subscriptions-banner.css
+-->
+{{ 'subscriptions-banner.css' | asset_url | stylesheet_tag }}
+
+<!--
+Add or replace second class in banner section container div using the classes below.
+
+banner-image-left = 50/50 image is left side
+banner-image-right = 50/50 image is right side
+banner-image-background-text-center = image as background with text in center
+banner-image-background-text-right = image as background with text in right
+banner-image-background-text-left = image as background with text in left
+
+-->
+
+<!-- banner section container -->
+<div class="subscriptions-banner banner-image-left">
+
+    <!-- banner image -->
+    <img src={{"subscriptions-banner-desktop-side.png" | asset_url}} alt="Brand image" class="subscriptions-banner-image">
+
+    <!-- banner text container -->
+    <div class="subscriptions-banner-text-container">
+        <h2 class="banner-title">SUBSCRIBE & SAVE</h2>
+        <p class="banner-description">Never run out of your favorite product.
+            <br> Get more out of your favorite items for less!</p>
+    </div>
+</div>

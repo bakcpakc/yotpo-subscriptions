@@ -1,0 +1,123 @@
+.yotpo-faq {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 3.5rem 2.5rem 2.5rem;
+    flex-direction: column;
+  }
+
+  .yotpo-faq-headline {
+    font-size: 45px;
+    font-weight: 900;
+    color:  #F0B8AC;
+    margin-bottom: 30px;
+  }
+
+  .yotpo-faq-list {
+    width: 60%;
+  }
+
+  .yotpo-faq-answer {
+    text-align: left;
+    display: none;
+    width: 100%;
+    margin-bottom: 0px;
+    font-size: 16px;
+    padding: 1.5rem 2.5rem 2.5rem 1.5rem;
+    background: RGBA(240, 184, 172, 0.37);
+    line-height: 1.6;
+  }
+
+  .yotpo-faq-question-container{
+    padding: 1rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .yotpo-faq-question {
+    font-weight: 500;
+    font-size: 18px;
+  }
+
+  .yotpo-faq-load-more {
+    font-weight: 800;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+  }
+
+  .yotpo-faq-list li {
+    list-style: none;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-bottom: 2px solid RGBA(240, 184, 172, 0.37);
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+  }
+
+  .yotpo-faq-list li:hover {
+    background: rgba(255, 255, 255, 0.3);
+  }
+
+  .yotpo-faq-show {
+    display: block;
+  }
+
+  .yotpo-faq-hide {
+    display: block;
+  }
+
+  .tos-link a {
+    color: skyblue;
+  }
+
+  @media (max-width: 1023px) {
+
+
+    .yotpo-faq{
+      padding: 0px;;
+
+    }
+    .yotpo-faq-question-container{
+        padding: 1rem 0.5rem 1rem 1rem;
+      }
+
+    .yotpo-faq-list li {
+      font-size: 16px;
+      line-height: 1;
+      position: relative;
+    }
+
+    p.yotpo-faq-answer {
+      font-size: 14px;
+      line-height: 1.4;
+    }
+
+    .yotpo-faq-question {
+      position: relative;
+      padding-right: 1rem;
+      font-size: 16px;
+      line-height: 1.4;
+    }
+
+    .yotpo-faq-load-more {
+        height: 100%;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    }
+
+    .yotpo-faq-list,
+    .tos-link {
+      width: 100%;
+      padding: 0px 0.75rem;
+    }
+  }
